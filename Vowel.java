@@ -21,7 +21,7 @@ public class Vowel {
         }
         return 0;
     }
-    //method to display and telling which char is vowel or constant or not a letter
+    //method to display and telling which char is vowel or consonant or not a letter
     public static void display(String s){
         for(int i=0; i<s.length();i++){
             if(toCheckVowel(s,i)==1){
